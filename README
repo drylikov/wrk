@@ -28,10 +28,3 @@ Benchmarking Tips
   available and closed sockets should be recycled quickly. To handle the
   initial connection burst the server's listen(2) backlog should be greater
   than the number of concurrent connections being tested.
-
-Acknowledgements
-
-  wrk contains code from a number of open source projects including the
-  'ae' event loop from redis, the nginx/joyent/node.js 'http-parser' and
-  the Tiny Mersenne Twister PRNG. Please consult the NOTICE file for
-  licensing details.
